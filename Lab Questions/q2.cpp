@@ -27,7 +27,7 @@ void mergeSort(int a[], int l, int r) {
     }
 }
 
-void partition(int a[], int n) {
+void printarr(int a[], int n) {
     for (int i = 0; i < n; i++) cout << a[i] << " ";
     cout << endl;
 }
@@ -41,6 +41,6 @@ int main() {
     mergeSort(a, 0, n1 - 1);
     mergeSort(b, 0, n2 - 1);
 
-    partition(a, n1);
-    partition(b, n2);
+    printarr(a, n1);
+    printarr(b, n2);
 }
