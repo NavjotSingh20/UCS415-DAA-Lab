@@ -18,7 +18,7 @@ int partition(int arr[], int l, int r) {
     return i + 1;
 }
 
-void quickSort(int arr[], int l, int r) {
+void quickSort(int arr  [], int l, int r) {
     if (l < r) {
         int p = partition(arr, l, r);
         quickSort(arr, l, p - 1);
